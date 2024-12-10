@@ -11,6 +11,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center bg-light">
+        <div class="card shadow-lg p-4 rounded login-card">
+            <div class="text-center mb-4">
+                <img src="logo.png" alt="FinControl Logo" class="logo mb-3">
+                <h2 class="text-primary">Bem-vindo ao FinControl</h2>
+                <p class="text-muted">Gerencie suas finanças com facilidade</p>
+            </div>
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite sua senha" required>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me" class="form-check-label">Lembrar-me</label>
+                    </div>
+                    <a href="#" class="text-decoration-none text-primary">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-3">Entrar</button>
+            </form>
+            <div class="text-center mt-4">
+                <p class="text-muted">Ainda não tem uma conta? <a href="#" class="text-primary">Cadastre-se</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
