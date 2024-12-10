@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - FinControl</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/projetos/fase4cap9/css/styles.css">
+</head>
+<body>
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center bg-light">
+        <div class="card shadow-lg p-4 rounded login-card">
+            <div class="text-center mb-4">
+                <h2 class="text-primary fw-bold">Crie sua conta!</h2>
+                <p class="text-muted">Gerencie suas finanças com facilidade.</p>
+            </div>
+            <form action="development.html">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control rounded-pill" id="name" placeholder="Seu nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control rounded-pill" id="email" placeholder="exemplo@email.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Senha</label>
+                    <input type="password" class="form-control rounded-pill" id="password" placeholder="********" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 rounded-pill">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
